@@ -1,0 +1,430 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-family: "Anton", serif;
+    font-family: "Work Sans", serif;
+   
+}
+
+
+/* Frame with 40px border radius and fixed dimensions */
+.frame {
+    position: fixed;
+    left: 1.2%;
+    top: 1.8%;
+    width: 97vw; /* Set width as per requirement */
+    height: 95vh; /* Set height as per requirement */
+    border: 4px solid white; /* Red border for the frame */
+    border-radius: 25px; /* Border radius on the inner side */
+    overflow: hidden; /* Hide content that overflows the frame */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+    
+}
+
+/* Content container that will be scrollable */
+.content {
+    background-color: #06010E; /* Set the black background for the content area */
+   max-width: 1520px;
+    height: 100%; /* Take up full height of the frame */
+    overflow-y: scroll; /* Enable vertical scrolling */
+    padding: 0; /* Remove padding to avoid white gap */
+    position: relative;
+
+    /* Hide scrollbar for WebKit browsers (Chrome, Safari) */
+    scrollbar-width: none; /* For Firefox */
+    -ms-overflow-style: none; /* For IE and Edge */
+    position: relative;
+   
+}
+
+.content::-webkit-scrollbar {
+    display: none; /* For WebKit browsers */
+}
+
+/* Each individual content box */
+.box {
+    background-color: lightgray;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px; /* Optional: for a softer box look */
+}
+.firstB{
+    max-width: 1920px;
+    height: 4em;
+    border: solid white .1px;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+ 
+
+}
+
+.logo{
+    width: 20%;
+    height: 100%;
+    position: relative;
+    right: 11%;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    font-family: sans-serif ;
+}
+.logo img{
+    height: 40px;
+    position: relative;
+    top: 0.7em;
+}
+.logo a{
+    position: relative;
+    right: 14%;
+    top: 40%;
+    font-size: 20px;
+}
+.home{
+    width: 28%;
+    height: 100%;
+    
+    position: relative;
+    left: 11%;
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    font-size: 18px;
+    align-items: center;
+   
+}
+.abouthome{
+    width: 100%;
+    height: 600px;
+    border: solid black;
+}
+.optic{
+    width: 100%;
+    height: 50%;
+
+}
+.optic h1{
+    color: white;
+    font-family: "Anton", serif;
+    text-align: center;
+    font-size: 500%;
+    line-height: 1.2em;
+    position: relative;
+    bottom: 4%;
+}
+.optic img{
+    position: relative;
+    left: 70%;
+    top: 70%;
+    height: 70px;
+}
+.slogun{
+    width: 100%;
+    height: 50%;
+}
+.slogun1{
+    text-align: center;
+    color: white;
+    width: 70%;
+    position: relative;
+    left: 15%;
+    top: 20%;
+    
+}
+.smallyellow{
+    height: 70px;
+    position: relative;
+    bottom: 80%;
+    left: 15%;
+}
+.yellowblack1{
+    height: 400px;
+    position: relative;
+    top: 20%;
+    left: 30%;
+}
+.bigB{
+    width: 100%;
+    height: 80cm;
+    background-image: url(p4/lines.png);
+    background-size:contain;
+    overflow: hidden;
+}
+.forhands{
+    display: flex;
+    justify-content: space-between;
+    height: 10cm;
+    align-items: end;
+  
+}
+.lefthand{
+   height: 220px;
+}
+.righthand{
+    height: 220px;
+}
+.language{
+    width: 100%;
+    height: 10cm;
+    color: white;
+    text-align: center;
+    
+}
+.language a{
+    position: relative;
+    top: 15%;
+}
+.langbox{
+    position: relative;
+    top: 20%;
+    width: 60%;
+    height: 60%;
+    display: flex;
+    justify-content: space-around;
+    left: 20%;
+    align-items: center;
+}
+.lang{
+    width: 80px;
+    height: 80px;
+    border-radius:50%;
+    background-color: #333333;
+    position: relative;
+   
+}
+.langbox2{
+    display: flex;
+    top: 5%;
+    width: 60%;
+    justify-content: space-around;
+    position: relative;
+    left: 19.8%;
+}
+.rj{
+    position: relative;
+    right: 1%;
+}
+.ja{
+    position: relative;
+    right: 2%;
+}
+.kt{
+    position: relative;
+    left: 1%;
+}
+.css img{
+    height: 43px;
+}
+.lang img{
+    position: relative;
+    top: 20%;
+}
+.project1{
+    width: 100%;
+    height: 17cm;
+    border: solid red;
+}
+.footer{
+    width: 100%;
+    height: 430px;
+    display: flex;
+    position: relative;
+    top: 7%;
+    background-color: #06010E;
+
+}
+.laststone{
+    height: 300px;
+    position: relative;
+    bottom: 40%;
+    right: 18%;
+    display:flex;
+
+}
+.leftfooter{
+    width: 55%;
+    height: 100%;
+    color: white;
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.leftfooter a{
+    font-size: 17px;
+    font-family: "Work Sans", serif;
+    position: relative;
+    right: 14.9%;
+    letter-spacing: 0.6px;
+    bottom: 27%;
+}
+.leftfooter p{
+    font-size: 45px;
+    font-family: "Anton", serif;
+    position: relative;
+    right: 1%;
+    line-height: 60px;
+    bottom: 33%;
+}
+.email {
+    width: 22%; /* Adjust width as needed */
+    height: 35px; /* Let the height grow dynamically if content expands */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    border-radius: 25px;
+    position: relative;
+    right: 15%;
+    bottom: 37%;
+    color: black;
+    background-color: white;
+    font-weight: 500;
+    padding: 20px; /* Add padding to increase visual height */
+    box-sizing: border-box; /* Ensure padding is included in the element's size */
+}
+
+
+
+.rightfooter{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    
+}
+.rightbox{
+  
+    width: 77%;
+    height: 50%;
+    position: relative;
+    top: 5.7%;
+    
+}
+.upperboxes{
+    width: 100%;
+    height: 50%;
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.smallbox {
+    width: 22%;
+    border-radius: 20px;
+    height: 85%;
+    color: white;
+    background-color: #38343E;
+    transition: background-color 0.3s, color 0.3s;
+}
+.smallbox img {
+    position: relative;
+    left: 37%;
+    height: 28px;
+    top: 25%;
+    transition: filter 0.3s; /* Smooth color change */
+}
+.smallbox a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 40%;
+    left: 1%;
+    font-size: 15px;
+}
+.smallboxess a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 40%;
+    left: 2%;
+
+}
+.smallboxess img{
+    position: relative;
+    left: 37%;
+    top: 25%;
+   
+}
+.smallboxess {
+    width: 22%;
+    border-radius: 20px;
+    height: 85%;
+    position: relative;
+    left: 5.5%;
+    color: white;
+    background-color: #38343E;
+    top: 5%;
+    transition: background-color 0.3s, color 0.3s;
+}
+.smallboxess img {
+    position: relative;
+    left: 37%;
+    top: 25%;
+    transition: filter 0.3s; /* Smooth color change */
+    height: 28px;
+}
+.smallboxess a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 40%;
+    font-size: 15px;
+    left: 2%;
+}
+.smallboxess1{
+    position: relative;
+    left: 15%;
+    color: white;
+}
+.lowerboxes{
+    width: 100%;
+    height: 50%;
+   
+    display: flex;
+    align-items: center;
+    
+}
+
+.smallbox:hover {
+    background-color: white;
+    color: #A680D1;
+    transition: all 0.5s;
+}
+
+.smallboxess:hover {
+    background-color: white;
+    color: #A680D1;
+    transition: all 0.5s;
+}
+
+/* Change SVG color on hover */
+.smallbox:hover img,
+.smallboxess:hover img {
+    filter: invert(32%) sepia(41%) saturate(347%) hue-rotate(230deg) brightness(88%) contrast(89%);
+    transition: all 0.5s;
+}
+.bhind{
+    height: 200px;
+    position: relative;
+    right: 50%;
+    top: 20%;
+   z-index: 99999;
+   display:inline;
+   
+}

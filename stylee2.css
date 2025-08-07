@@ -1,0 +1,745 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-family: "Anton", serif;
+    font-family: "Work Sans", serif;
+   
+}
+
+.test{
+    width: 100%;
+    height: 1380%;
+    background-color: #06010E;
+    background-image: url(p4/lines.png);
+    background-size:contain;
+    overflow: hidden;
+}
+.firstpart{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+  
+}
+.leftside{
+    height: 100%;
+    width: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 30px;
+}
+.leftside img{
+    height: 270px;
+}
+.leftside a{
+    color: white;
+    position: relative;
+    top: 20%;
+    right: 26%;
+    font-size: 17px;
+    
+}
+.rightside{
+    width: 50%;
+    height:100%;
+    display: flex;
+    align-items: center;
+}
+.onebox{
+    color: white;
+    position: relative;
+    top: 40px;
+    font-family: "Anton", serif;
+}
+.ff{
+    font-size: 64.16px;
+    font-family: "Anton", serif;
+    letter-spacing: 8px;
+}
+.aa{
+    position: relative;
+    left: 168px;
+    
+}
+.bb{
+    position: relative;
+    bottom: 20px;
+  
+}
+.cc{
+    position: relative;
+    bottom: 40px;
+}
+.dd{
+    position: relative;
+    bottom: 77px;
+    left: 80%;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 2px;
+}
+.ee{
+    position: relative;
+    bottom: 95px;
+    left: 30px;
+}
+
+.circle2{
+    width: 12px;
+    height: 12px;
+    border: solid #A352FF;
+    border-radius: 50%;
+    position: relative;
+    right:45px;
+    top: 43px;
+    background-color: #A352FF;
+
+}
+
+.principle{
+    width: 88%;
+    height: 12.6%;
+    position: relative;
+    left:6%;
+    border-radius: 50px;
+    display: flex;
+    overflow: hidden;
+    background-color: white;
+}
+.zz{
+    width: 25%;
+    height: 100%;
+    border: solid white;
+ 
+   
+}
+.zz1{
+   background-color: white;
+   width: 23%;
+  
+}
+.zz2{
+    width: 26;
+    position: relative;
+    right:1%;
+}
+.fp1{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+
+}
+.fp1 a{
+    font-size: 30px;
+    font-family: "Anton", serif;
+    letter-spacing: 3px;
+    position: relative;
+    bottom: 10%;;
+    right: 20px;
+    color: black;
+}
+.fp1 img{
+    height: 37px;
+    position: relative;
+    bottom:11.2% ;
+    right: 30px;
+
+}
+.fp2{
+    width: 100%;
+    height: 80px;
+    font-size: 14px;
+    position: relative;
+    right: 2%;
+    bottom: 4%;
+    color: black;
+    display: flex;
+    justify-content: center;
+    font-family: "Work Sans", serif;
+}
+
+.fp3{
+    width: 100%;
+    height: 62%;
+}
+.fp3 img{
+    position: relative;
+    left: 50px;
+    height: 270px;
+    bottom: 23%;
+}
+.zz2{
+    background-color: white;
+    position: relative;
+    left: 0.1%;
+ 
+}
+.halfpart{
+    width: 100%;
+    height: 50%;
+    
+
+}
+.halfpart a{
+    position: relative;
+    left: 4px;
+    font-size: 18px;
+}
+.allimg{
+    height: 20px;
+    
+}
+    
+.title{
+
+    height: fit-content;
+    position: relative;
+    display: flex;
+    align-items: end;
+    justify-content: start;
+    font-weight: 500;
+    top: 25%; 
+   
+
+}
+.title a{
+    font-size: 15px;
+}
+.title img{
+    height: 18px;
+}
+
+.detail{
+    font-size: 12px;
+    position: relative;
+    left: 7%;
+    top: 35%;
+    line-height: 17px;
+    font-weight: 350;
+
+
+}
+.lowerpart{
+   
+    height: 50%;
+}
+.T1 img{
+    position: relative;
+    bottom: 30px;
+}
+.T1 a{
+    position: relative;
+    bottom: 30px;
+    left: 4px;
+    font-size: 15px;
+}
+.LowerD{
+    font-size: 12px;
+    position: relative;
+    left: 7%;
+    top: 20%;
+    line-height: 17px;
+    font-weight: 350;
+}
+.stones{
+    width: 100%;
+    height: 160vh;
+    display: flex;
+    position: relative;
+    bottom: 1.8%;
+}
+.leftstone{
+    overflow: hidden;
+    right:20% ;
+    width: 30%;
+    height: 100%;
+ 
+}
+.rightrock {
+    position: relative; /* Keep its relative positioning */
+    bottom: 100px; /* Adjust based on your design */
+    left: 28%; /* Adjust based on your design */
+    height: 1100px;
+    display: block;
+    z-index: 9999; /* Ensure it's above other elements */
+}
+
+.leftstone img{
+    position: relative;
+    top: 58%;
+    right: 290px;
+    height: 550px;
+
+   
+
+}
+
+.iphone{
+    position: relative;
+    top: 26%;
+    height: 610px;
+    left: 10%;
+}
+.rightrock{
+    position: relative;
+    bottom: 76.5%;
+    left: 28%;
+    height: 1100px;
+    display: inline;
+    z-index: 999999;
+}
+.rightphone a{
+    color: white;
+    
+}
+.button{
+    color: white;
+ 
+}
+.skills{
+    width: 100%;
+    height: 100px;
+    position: relative;
+    bottom: 100px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.buttonP{
+    color: black;
+
+    width: 170px;
+    height: 50px;
+    display: flex;
+    background-color: white;
+    font-size: 18px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Work Sans", serif;
+    position: relative;
+    left: 23%;
+    bottom: 280%;
+
+
+}
+.buttonP img{
+    height: 14px;
+    left: 10px;
+    position: relative;
+   
+}
+.set{
+    color: white;
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+    left: 73px;
+    font-size: 45px;
+    font-family: "Anton", serif;
+}
+.skill{
+    color: white;
+   justify-content: center;
+    position: relative;
+    height: fit-content;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    font-size: 13px;
+    bottom: 90px;
+}
+.skillpoints{
+    width: 93%;
+    left: 7%;
+    height: 60vh;
+    background-image: url(p4/Group\ 688.png);
+    position: relative;
+    background-size: contain;
+    bottom: 30px;
+   
+}
+.upperskill{
+    width: 90%;
+    height: 50%;
+    position: relative;
+    left: 73px;
+    display: flex;
+}
+.skilldetail{
+    width: 33.33%;
+    height: 100%;
+  
+}
+.skilltittle a{
+    color: white;
+    width: 100%;
+    height: 44%;
+    font-family: "Work Sans", serif;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    
+}
+.skilltittle img{
+    height: 25px;
+    position: relative;
+    left: 5%;
+    top: 79px;
+}
+.skilltittle a{
+    position: relative;
+    left: 20%;
+    top: 50px;
+    font-size: 15px;
+}
+.skillbrief {
+    display: block; /* or any suitable layout */
+    line-height: 1; /* Adjust if needed */
+}
+
+.skillbrief a {
+    color: white;
+    font-size: 10px;
+    line-height: 1.2; /* Adjust as needed */
+    position: relative;
+    top: 65px;
+    
+}
+
+
+.forthis a{
+    position: relative;
+    right: -50px;
+}
+.skillbrief1 a{
+    position: relative;
+    left: 20%;
+}
+.forthis1{
+    position: relative;
+    left: 20px;
+}
+.forthis1 a{
+    position: relative;
+    left: 7%;
+}
+.forthis1 img{
+    position: relative;
+    left: -5%;
+    top: 80px;
+}
+
+.skillbrief2{
+    position: relative;
+    left: 20px;
+}
+.lowerskill{
+    width: 66.66%;
+    height: 50%;
+    
+    position: relative;
+    left: 15%;
+    display: flex;
+}
+.skilltittle1{
+    position: relative;
+    left: 9%;
+    bottom: 15%;
+}
+
+.skillbrief2{
+    position: relative;
+    left: 63px;
+    bottom: 40px;
+}
+.lowerdetails{
+
+    width: 50%;
+}
+.skilltittle2 a{
+    position: relative;
+    right: 100px;
+}
+
+.api{
+    position: relative;
+    right: 10px;
+    bottom: 47px;
+
+}
+.skillbrief3 {
+    display: block; /* or any suitable layout */
+    line-height: 1; /* Adjust if needed */
+}
+.skillbrief3 a{
+    position: relative;
+    bottom: 100px;
+    color: white;
+    font-size: 10px;
+    left: 13.5%;
+    top: 40px;
+}
+
+.skillbrief2 a{
+    position: relative;
+    left: 15%;
+    top: 75px;
+  }
+  .skilltittle1 a{
+    position: relative;
+    left: 20%;
+  }
+  .skilltittle1 img{
+    position: relative;
+    left: 40px;
+    top: 80px;
+  }
+  .skillbrief1 a{
+    position: relative;
+    left: 60px;
+    
+  }
+  .lasttry a{
+    position: relative;
+    left: 7%;
+    color: white;
+    top: 20px;
+    font-size: 15px;
+  }
+  .lasttry img{
+    position: relative;
+    height: 30px;
+    top: 35px;
+    left: 3%;
+  }
+
+  .mobileT a{
+    position: relative;
+    left: 60px;
+  }
+  .mobileT img{
+    height: 35px;
+    position: relative;
+    left: 4px;
+    top: 85px;
+}
+
+  .hoja a{
+    position: relative;
+    left: 12%;
+  }
+.footer{
+    width: 100%;
+    height: 430px;
+    display: flex;
+    position: relative;
+    top: 7%;
+    background-color: #06010E;
+
+}
+.lasttext{
+    position: relative;
+    bottom: 30%;
+    left: 9%;
+    font-size: 45px;
+    width: 70%;
+    font-family: "Anton", serif;
+}
+
+
+.laststone{
+    height: 300px;
+    position: relative;
+    bottom: 50%;
+    right: 18%;
+    display:flex;
+
+}
+.leftfooter{
+    width: 55%;
+    height: 100%;
+    color: white;
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.leftfooter a{
+    font-size: 17px;
+   
+    position: relative;
+    right: 15.9%;
+    letter-spacing: 0.6px;
+    bottom: 35%;
+}
+.leftfooter p{
+    font-size: 45px;
+    font-family: "Anton", serif;
+    position: relative;
+    left: 9%;
+    line-height: 60px;
+    bottom: 33%;
+}
+.email {
+    width: 22%; /* Adjust width as needed */
+    height: 35px; /* Let the height grow dynamically if content expands */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    border-radius: 25px;
+    position: relative;
+    right: 16%;
+    bottom: 25%;
+    color: black;
+    background-color: white;
+    font-weight: 500;
+    padding: 20px; /* Add padding to increase visual height */
+    box-sizing: border-box; /* Ensure padding is included in the element's size */
+    
+}
+
+
+
+.rightfooter{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    
+}
+.rightbox{
+  
+    width: 77%;
+    height: 50%;
+    position: relative;
+    top: 5.7%;
+    
+}
+.upperboxes{
+    width: 100%;
+    height: 50%;
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.smallbox {
+    width: 22%;
+    border-radius: 20px;
+    height: 85%;
+    color: white;
+    background-color: #38343E;
+    transition: background-color 0.3s, color 0.3s;
+}
+.smallbox img {
+    position: relative;
+    left: 37%;
+    height: 28px;
+    top: 25%;
+    transition: filter 0.3s; /* Smooth color change */
+}
+.smallbox a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 40%;
+    left: 1%;
+    font-size: 15px;
+}
+.smallboxess a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 40%;
+    left: 2%;
+
+}
+.smallboxess img{
+    position: relative;
+    left: 37%;
+    top: 25%;
+   
+}
+.smallboxess {
+    width: 22%;
+    border-radius: 20px;
+    height: 85%;
+    position: relative;
+    left: 5.5%;
+    color: white;
+    background-color: #38343E;
+    top: 5%;
+    transition: background-color 0.3s, color 0.3s;
+}
+.smallboxess img {
+    position: relative;
+    left: 37%;
+    top: 25%;
+    transition: filter 0.3s; /* Smooth color change */
+    height: 28px;
+}
+.smallboxess a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 40%;
+    font-size: 15px;
+    left: 2%;
+}
+.smallboxess1{
+    position: relative;
+    left: 15%;
+    color: white;
+}
+.lowerboxes{
+    width: 100%;
+    height: 50%;
+   
+    display: flex;
+    align-items: center;
+    
+}
+
+.smallbox:hover {
+    background-color: white;
+    color: #A680D1;
+    transition: all 0.5s;
+}
+
+.smallboxess:hover {
+    background-color: white;
+    color: #A680D1;
+    transition: all 0.5s;
+}
+
+/* Change SVG color on hover */
+.smallbox:hover img,
+.smallboxess:hover img {
+    filter: invert(32%) sepia(41%) saturate(347%) hue-rotate(230deg) brightness(88%) contrast(89%);
+    transition: all 0.5s;
+}
+.bhind{
+    height: 200px;
+    position: relative;
+    right: 50%;
+    top: 20%;
+   z-index: 99999;
+   display:inline;
+   
+}
