@@ -1,3 +1,11 @@
-# This is a placeholder for the Financial Dashboard image
-# The actual image should be saved here as financial-dashboard.png
-# This file represents the Financial Dashboard UI with dark theme and vibrant accent colors
+# Financial Dashboard Image - Updated Version
+# 
+# This image displays a comprehensive "Financial Dashboard" user interface with:
+# - Dark theme with vibrant accent colors (red/pink, yellow, green, blue)
+# - Header with "Financial Dashboard" title and action buttons
+# - Key metric cards showing: 6 Total Goals, ₹1,842,000 Total Target, ₹320,800 Total Saved, 17.4% Progress
+# - Fund Distribution pie chart with contributions across goals (bike 62%, Student Loan Payoff 16%, Emergency Fund 16%, iPhone 3%, cap 3%)
+# - Goal Progress Overview line graph showing progress percentages for gaming PC, Student Loan Payoff, Emergency Fund, iPhone, cap, bike
+# - Quick Actions section with Create New Goal, Manage All Goals, Update Profile buttons
+# - Upcoming Deadlines section showing "cap" goal with 8/8/2025 deadline (1 days remaining)
+# - Modern dark background with lighter gray panels and white/light gray text
