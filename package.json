@@ -2,14 +2,15 @@
   "name": "roshan-alawe-portfolio",
   "version": "2.0.0",
   "description": "Professional portfolio website for Roshan Alawe - Full Stack Developer and App Developer",
-  "main": "index.html",
+  "main": "p4.html",
   "scripts": {
     "start": "python -m http.server 8000",
     "serve": "npx serve .",
     "dev": "python -m http.server 8000",
     "build": "echo 'No build process needed for static site'",
     "lint": "echo 'No linting configured'",
-    "test": "echo 'No tests configured'"
+    "test": "echo 'No tests configured'",
+    "vercel-build": "echo 'Static site - no build required'"
   },
   "keywords": [
     "portfolio",
@@ -26,12 +27,12 @@
   "license": "UNLICENSED",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/portfolio.git"
+    "url": "https://github.com/Strsnger07/Portfolio.git"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/portfolio/issues"
+    "url": "https://github.com/Strsnger07/Portfolio/issues"
   },
-  "homepage": "https://yourusername.github.io/portfolio",
+  "homepage": "https://roshan-alawe-portfolio.vercel.app",
   "devDependencies": {},
   "dependencies": {},
   "engines": {
