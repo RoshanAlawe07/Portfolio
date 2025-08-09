@@ -15,15 +15,14 @@
             <a>ROSHAN ALAWE</a>
         </div>
         <div class="home">
-          <div><a href="p4.html" style="text-decoration: none; color: inherit;">Portfolio</a></div>
+          <div><a href="p4.html" style="text-decoration: none; color: inherit;">Home</a></div>
             <div> About</div>
-            <div> 'Sup</div>
-            <div> Contact</div>
+            <div><a href="3page.html" style="text-decoration: none; color: inherit;">Contact</a></div>
         </div>
        </div>
        <div class="abouthome">
          <div class="optic">
-           <img src="p4/yellowstone.png" alt="">
+           <img class="optic-img optic-imggg " src="p4/yellowstone.png" alt="" style="position: relative; left: 70%; top: 70%; height: 70px; transition: all 0.4s ease; cursor: pointer; z-index: 10;" onmouseover="this.style.transform='scale(1.3) rotate(-10deg)'; this.style.filter='brightness(1.3) drop-shadow(0 0 15px rgba(255, 255, 255, 0.8))'; this.style.zIndex='100'" onmouseout="this.style.transform='scale(1) rotate(0deg)'; this.style.filter='none'; this.style.zIndex='10'">
            <h1>MORE THAN OPTIC, <br> CONVERSIONS.</h1>
          </div>
 
@@ -59,10 +58,14 @@
       </div>
        
       <div class="project1">
-        <img src="p4/project1.PNG" alt="Financial Dashboard - Dark theme interface with 6 Total Goals (₹1,842,000 target, ₹320,800 saved, 17.4% progress), Fund Distribution pie chart (bike 62%, Emergency Fund 16%, Student Loan Payoff 16%, iPhone 3%, cap 3%), Goal Progress Overview line graph (gaming PC, Student Loan Payoff, Emergency Fund, iPhone, cap, bike), Quick Actions (Create New Goal, Manage All Goals, Update Profile), and Upcoming Deadlines (cap goal: 8/8/2025, 1 days remaining)" style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;">
+        <h3 style="color: #FFD700; margin-bottom: 20px; font-size: 22px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; text-align: center;">Financial Goal Management Platform</h3>
+        <img src="p4/project1.PNG" alt="Financial Dashboard - Dark theme interface with 6 Total Goals (₹1,842,000 target, ₹320,800 saved, 17.4% progress), Fund Distribution pie chart (bike 62%, Emergency Fund 16%, Student Loan Payoff 16%, iPhone 3%, cap 3%), Goal Progress Overview line graph (gaming PC, Student Loan Payoff, Emergency Fund, iPhone, cap, bike), Quick Actions (Create New Goal, Manage All Goals, Update Profile), and Upcoming Deadlines (cap goal: 8/8/2025, 1 days remaining)" style="width: 60%; height: 40%; object-fit: cover; border-radius: 8px; margin: 0 auto; display: block; box-shadow: 0 4px 8px rgba(0,0,0,0.1); transition: transform 0.3s ease, box-shadow 0.3s ease; cursor: pointer;" onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 8px 16px rgba(0,0,0,0.2)'" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 4px 8px rgba(0,0,0,0.1)'">
       </div>
-      <div class="project1"></div>
-      <div class="project1"></div>
+      <div class="project1">
+        <h3 style="color: #FFD700; margin-bottom: 20px; font-size: 22px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; text-align: center;">Blog Management System</h3>
+        <img src="p4/project2.PNG" alt="Blog Management System - Modern web interface with 'Latest Blogs' heading, subscription form, category filters (All, Technology, Startup, Lifestyle), and blog post cards displaying various articles with images and titles" style="width: 60%; height: 40%; object-fit: cover; border-radius: 8px; margin: 0 auto; display: block; box-shadow: 0 4px 8px rgba(0,0,0,0.1); transition: transform 0.3s ease, box-shadow 0.3s ease; cursor: pointer;" onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 8px 16px rgba(0,0,0,0.2)'" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 4px 8px rgba(0,0,0,0.1)'">
+      </div>
+      <div class="project1 project2"></div>
 
 
 
@@ -80,13 +83,10 @@
         <div class="rightbox">
           <div class="upperboxes">
             <div class="smallbox"> <img src="p4/1.svg" alt=""><a href="p4.html" style="text-decoration: none; color: inherit;">Home</a></div>
-            <div class="smallbox"> <img src="p4/2.svg" alt=""><a>About</a></div>
-            <div class="smallbox"> <img src="p4/3.svg" alt=""><a>Portfolio</a></div>
+            <div class="smallbox"> <img src="p4/2.svg" alt=""><a href="2page.html" style="text-decoration: none; color: inherit;">About</a></div>
+            <div class="smallbox"> <img src="p4/3.svg" alt=""><a href="p4.html" style="text-decoration: none; color: inherit;">Portfolio</a></div>
           </div>
-          <div class="lowerboxes">
-            <div class="smallboxess"> <img src="p4/4.svg" alt=""><a>Verse</a></div>
-            <div class="smallboxess smallboxess1"> <img src="p4/5.svg" alt=""><a>Contact</a></div>
-          </div>
+          
         </div>
       </div>
     </div>
@@ -95,5 +95,60 @@
 
               </div>
               </div>
+
+<script>
+// Debug: Check if elements exist
+console.log('Script loaded');
+
+// Simple hand animation
+function animateHands() {
+    const lefthand = document.querySelector('.lefthand');
+    const righthand = document.querySelector('.righthand');
+    
+    console.log('Left hand found:', lefthand);
+    console.log('Right hand found:', righthand);
+    
+    if (lefthand && righthand) {
+        // Set initial positions
+        lefthand.style.transform = 'translateX(-100px)';
+        righthand.style.transform = 'translateX(100px)';
+        
+        console.log('Initial positions set');
+        
+        // Animate after 1 second
+        setTimeout(() => {
+            lefthand.style.transform = 'translateX(0px)';
+            righthand.style.transform = 'translateX(0px)';
+            console.log('Animation triggered');
+        }, 1000);
+    }
+}
+
+// Run on page load
+window.addEventListener('load', animateHands);
+
+// Also run on DOM ready
+document.addEventListener('DOMContentLoaded', animateHands);
+
+// Simple scroll animation
+window.addEventListener('scroll', function() {
+    const lefthand = document.querySelector('.lefthand');
+    const righthand = document.querySelector('.righthand');
+    
+    if (lefthand && righthand) {
+        const scrollY = window.scrollY;
+        const windowHeight = window.innerHeight;
+        
+        // Simple animation based on scroll position
+        if (scrollY > 200) {
+            lefthand.style.transform = 'translateX(0px)';
+            righthand.style.transform = 'translateX(0px)';
+        } else {
+            lefthand.style.transform = 'translateX(-100px)';
+            righthand.style.transform = 'translateX(100px)';
+        }
+    }
+});
+</script>
 </body>
 </html>
