@@ -122,7 +122,7 @@
     position: relative;
     bottom: 4%;
 }
-.optic-img{
+.optic img{
     position: relative;
     left: 70%;
     top: 70%;
@@ -202,11 +202,11 @@
    z-index: 10;
 }
 .righthand{
-    height: 220px;
-    transition: transform 0.8s ease;
-    transform: translateX(100px);
-    position: relative;
-    z-index: 10;
+   height: 220px;
+   transition: transform 0.8s ease;
+   transform: translateX(100px);
+   position: relative;
+   z-index: 10;
 }
 .language{
     width: 100%;
@@ -518,4 +518,3 @@
         transform: translateY(0px);
     }
 }
-

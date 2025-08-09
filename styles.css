@@ -1,0 +1,57 @@
+/* Set the body and html to take full height and remove margin */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Frame styles */
+.frame {
+    position: fixed; /* Fix the frame in place */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 40px solid white; /* 40px border for the frame */
+    pointer-events: none; /* Prevent interaction with the frame */
+    box-shadow: inset 0 0 0 40px white; /* Make the inside of the frame look "cutout" */
+}
+
+/* Content area styles */
+.content {
+    width: calc(100% - 80px); /* Content width, accounting for the left and right frame border */
+    height: calc(100vh - 80px); /* Content height, accounting for the top and bottom frame border */
+    position: absolute;
+    top: 40px; /* Offsets the content down by 40px to fit within the frame */
+    left: 40px; /* Offsets the content to the right by 40px to fit within the frame */
+    right: 40px; /* Offsets the content to the left by 40px to fit within the frame */
+    bottom: 40px; /* Offsets the content upwards by 40px to fit within the frame */
+    background-color: black; /* Background color for the content */
+    border-radius: 20px; /* Inner rounded corners */
+    overflow-y: auto; /* Allows vertical scrolling when content exceeds the height */
+    padding: 20px; /* Adds padding inside the content area */
+    box-sizing: border-box; /* Ensures padding is included in the width/height calculation */
+}
+
+/* Styling for each content block */
+.firstB {
+    width: 100%;
+    height: 200px; /* Example height for each content block */
+    border: solid red;
+    margin-bottom: 10px; /* Adds some space between content blocks */
+}
+
+/* Optional: Style for links */
+.content a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+<div class="stones">
+<div class="real real1"><img src="p4/rock2.png" alt=""></div>
+<div class="real real2"><img src="p4/iphone15pro.png" alt=""></div>
+<div class="real real3"><img src="p4/rock1.png" alt=""></div>
+</div>

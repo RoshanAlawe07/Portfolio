@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-family: "Anton", serif;
+    font-family: "Work Sans", serif;
+   
+}
+
+
+/* Frame with 40px border radius and fixed dimensions */
+.frame {
+    position: fixed;
+    left: 30px;
+    top: 12px;
+    width: 96vw; /* Set width as per requirement */
+    height: 94vh; /* Set height as per requirement */
+   /* Red border for the frame */
+    border-radius: 25px; /* Border radius on the inner side */
+    overflow: hidden; /* Hide content that overflows the frame */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+/* Content container that will be scrollable */
+.content {
+    background-color: #06010E; /* Set the black background for the content area */
+    width: 96vw;
+    height: 100%; /* Take up full height of the frame */
+    overflow-y: scroll; /* Enable vertical scrolling */
+    padding: 0; /* Remove padding to avoid white gap */
+    position: relative;
+
+    /* Hide scrollbar for WebKit browsers (Chrome, Safari) */
+    scrollbar-width: none; /* For Firefox */
+    -ms-overflow-style: none; /* For IE and Edge */
+    position: relative;
+   
+}
+
+.content::-webkit-scrollbar {
+    display: none; /* For WebKit browsers */
+}
+
+/* Each individual content box */
+.box {
+    background-color: lightgray;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px; /* Optional: for a softer box look */
+}
+.firstB{
+    width: 100%;
+    height: 4em;
+
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+ 
+
+}
+
+.logo{
+    width: 20%;
+    height: 100%;
+    position: relative;
+    right: 11%;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    font-family: sans-serif ;
+}
+.logo img{
+    height: 40px;
+    position: relative;
+    top: 0.7em;
+}
+.logo a{
+    position: relative;
+    right: 22%;
+    top: 40%;
+    font-size: 20px;
+}
+.home{
+    width: 28%;
+    height: 100%;
+    
+    position: relative;
+    left: 11%;
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    font-size: 18px;
+    align-items: center;
+}
+#secondB {
+    width: 100%;
+    height: 93%;
+    position: relative; /* To allow absolute positioning inside */
+ 
+   
+}
+
+.WP {
+    width: 100%;
+    height: 67%;
+    right: 90px;
+    display: flex;
+
+    color: white;
+    justify-content: space-between;
+    position: relative; /* To allow overlaying text and image */
+  
+    background-color: #06010E;
+    background-blend-mode: screen;
+    background-image: url(p4/bphoto.png);
+    background-size: contain; /* Scales the image to fit the div without cropping */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents repeating the image */
+}
+
+.hi {
+    font-size: 18px;
+    z-index: 1; /* Ensures text appears on top of image */
+    position: absolute; /* Allows placement over the image */
+    color: white;
+    top: 20%; /* Adjust this to place the text over the image */
+    left: 65%;
+    top: 57%;
+    max-width: 50%; /* Controls text width */
+}
+
+.im{
+    font-size: 18px;
+    position: relative;
+    left: 10%;
+    top: 44%;
+}
+.design{
+    width: 100%;
+    height: 33%;
+  
+ 
+}
+.uppart{
+    height: 150px;
+    display: flex;
+    color: white;
+    border: solid w;
+    justify-content: space-around;
+    
+}
+.app{
+    font-family: "Anton", serif;
+    font-size: 120px;
+    position: relative;
+    bottom: 40%;
+    left: 4%;
+}
+.app img{
+    position: relative;
+    left: 225px;
+    bottom: 44px;
+    height: 40px;
+}
+.based{
+    font-family: "Work Sans", serif;
+    font-size: 20px;
+    position: relative;
+    right: 7%;
+    top: 70%;
+}
+
+.phase {
+    width: 100%;
+    height: 400px; /* Adjust the height as needed */
+   background-color: #06010E;
+    color: white;
+}
+.full{
+    font-size: 120px;
+    font-family: "Anton", serif;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 2px;
+    width:fit-content;
+    height: fit-content;
+    position: relative;
+    left: 35%;
+    bottom: 13%;
+}
+
+.orgiphase{
+    width: 100%;
+    height: 200px;
+    border: solid white;
+    background-color: white;
+    text-align: center;
+   
+    
+}
+.orgiphase img{
+    height: 50px;
+    position: relative;
+    right: 16%;
+    bottom: 27px
+    
+}
+.orgiphase a{
+    font-size: 20px ;
+    position: relative;
+    right: 30px;
+    top:40px;
+
+}
