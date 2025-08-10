@@ -743,3 +743,7 @@
    display:inline;
    
 }
+.skills-section{
+    position: relative;
+    bottom: 20%;
+}
