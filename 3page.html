@@ -6,6 +6,12 @@
   <title>Scrollable Content Inside Frame</title>
   <link rel="stylesheet" href="2page.css">
   <link rel="stylesheet" href="3page.css">
+  <script>
+    function openResume() {
+      // Open resume from Overleaf in new tab
+      window.open('https://www.overleaf.com/read/rqxpnxnfgbqt#55cca1', '_blank');
+    }
+  </script>
 </head>
 <body>
   <div class="frame">
@@ -53,7 +59,7 @@
               </div>
 
                                                    <!-- Card 3 -->
-              <div class="project-card" style="width: 200px; height: 200px; background: linear-gradient(145deg, #1a1a1a, #2d2d2d); border-radius: 15px; padding: 20px; box-shadow: 0 8px 25px rgba(0,0,0,0.3); transition: all 0.3s ease; cursor: pointer; display: flex; flex-direction: column; align-items: center; justify-content: center;" onmouseover="this.style.transform='translateY(-10px)'; this.style.boxShadow='0 15px 35px rgba(0,0,0,0.4)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 8px 25px rgba(0,0,0,0.3)'">
+              <div class="project-card" style="width: 200px; height: 200px; background: linear-gradient(145deg, #1a1a1a, #2d2d2d); border-radius: 15px; padding: 20px; box-shadow: 0 8px 25px rgba(0,0,0,0.3); transition: all 0.3s ease; cursor: pointer; display: flex; flex-direction: column; align-items: center; justify-content: center;" onmouseover="this.style.transform='translateY(-10px)'; this.style.boxShadow='0 15px 35px rgba(0,0,0,0.4)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 8px 25px rgba(0,0,0,0.3)'" onclick="openResume()">
                
                 <img src="p4/arrow.png" alt="Arrow" style="width: 40px; height: 40px; margin-bottom: 15px; object-fit: contain;">
                 <h3 style="color: #FFFFFF; font-size: 18px; font-weight: bold; margin-bottom: 0; text-align: center;">RESUME</h3>
