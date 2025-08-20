@@ -124,7 +124,7 @@
   
     background-color: #06010E;
     background-blend-mode: screen;
-    background-image: url(p4/bphoto.png);
+    background-image: url(p4/backphoto.jpg);
     background-size: contain; /* Scales the image to fit the div without cropping */
     background-position: center; /* Centers the image */
     background-repeat: no-repeat; /* Prevents repeating the image */
