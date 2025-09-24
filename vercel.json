@@ -45,6 +45,18 @@
       "dest": "/3page.html"
     },
     {
+      "src": "/p4.html",
+      "dest": "/p4.html"
+    },
+    {
+      "src": "/2page.html",
+      "dest": "/2page.html"
+    },
+    {
+      "src": "/3page.html",
+      "dest": "/3page.html"
+    },
+    {
       "src": "/(.*)",
       "dest": "/$1"
     }
